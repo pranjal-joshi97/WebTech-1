@@ -1,0 +1,49 @@
+table {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+}
+tr, td {
+    border:1px solid black; 
+    padding:3px; 
+    vertical-align:top;
+}
+img { 
+    width:100%;
+}
+td.pic{
+  width: 70%;
+  background-color: pink;
+}
+td#last{
+  width: 30%;
+  background-color: lightblue;
+}
+td.thirtyfive{
+  width: 35%;
+  background-color: lightcoral;
+}
+body{ 
+    background-image: url(../images/music.gif);
+    }
+p.scroll{
+    Background-color: lime;
+    Width: 250px; height: 300px;
+    Overflow: scroll;
+    Padding-right:10px;
+    Padding-left:10px;
+    opacity: 0.6;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.background {
+    margin-left: auto;
+    margin-right: auto;
+  height: 300px;
+    background: url(https://media.gettyimages.com/photos/the-golden-colosseum-at-dusk-in-rome-italy-picture-id161835510?s=612x612) ;
+    border: 2px solid black;
+  }

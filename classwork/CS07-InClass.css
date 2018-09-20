@@ -1,0 +1,29 @@
+table{
+    width:500px;
+    margin-right: auto;
+    margin-left:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+
+tr, td {border:1px solid black; padding:3px; vertical-align: top; background-color: green;}
+
+img{ width:100%;}
+
+td.pic{
+    width: 70%;
+    background-color: pink;
+  }
+td#last{
+width: 30%;
+background-color: lightblue;
+}
+td.thirtyfive{
+width: 35%;
+background-color: lightcoral;
+}
+
+
+div#background {
+    background-image: url("https://pbs.twimg.com/media/DJhshvxXcAEeeyV.jpg");
+}
