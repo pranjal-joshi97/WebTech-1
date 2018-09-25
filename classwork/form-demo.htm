@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Technologies - Form Demo</title>
+        <style type="text/css">
+            form {
+                background-color: grey;
+                margin-left: auto;
+                margin-right: auto;
+                /* margin: 0 100px 0 100px; */
+                width: 300px;
+                padding: 30px 50px 30px 50px;
+            }
+
+            div {
+                width: 200px;
+            }
+
+            div input {
+                float: right;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Your HTML goes here -->
+        <h1>Form Demo</h1>
+
+        <form method="POST" action="mailto:zli@babson.edu">
+            <div>
+                <p>Last Name: <input type="text" name="last_name" maxlength="8" size="10" value="Enter Name here"> </p>
+
+                <p>password: <input type="password" size="10"></p>
+            </div>
+            <p>Gender: Male<input type="radio" name="gender" value="m">
+                Female<input type="radio" name="gender" value="f">
+                I don't want to tell<input type="radio" name="gender" value="u"></p>
+
+            <p>Which gaming console(s) do you own?<br>
+                <input type="checkbox" name="product-question" value="1">xbox one<br>
+                <input type="checkbox" name="product-question" value="2">playstion 4<br>
+                <input type="checkbox" name="product-question" value="3">nintendo switch<br>
+
+            </p>
+
+            <p><input type="hidden" name="secret-question" value="a"> </p>
+
+            <p><input type="submit" name="submit" value="I am done!">
+
+                <input type="reset" name="reset" value="Let me restart!">
+
+            </p>
+
+
+        </form>
+
+    </body>
+
+</html>
